@@ -1,0 +1,35 @@
+body{
+    height: 300vh;
+}
+
+.header{
+    width: 100%;
+    background-image:linear-gradient(  red, grey);
+    line-height: 3rem;
+    position: sticky;
+    top: 0.5rem;
+}
+
+
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    color: white;
+}
+
+
+.hide{
+    display: none !important;
+}
+
+.show{
+    display:block !important;
+}
+
+#header2{
+    position: sticky;
+    top: 1rem;
+}
